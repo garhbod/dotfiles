@@ -12,21 +12,27 @@ curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix 
 
 Restart your shell afterwards.
 
-### 2. Clone and install packages
+### 2. Clone the repo
 
 ```sh
-nix run nixpkgs#git -- clone https://github.com/garhbod/dotfiles.git && nix profile add ./dotfiles
+nix run nixpkgs#git -- clone https://github.com/garhbod/dotfiles.git
 ```
 
-This uses `nix run` to temporarily get `git` for cloning, then installs the default (`desktop`) profile from the local flake — no prior tooling required.
+This uses `nix run` to temporarily get `git` without permanently installing it.
+
+### 3. Install packages
+
+```sh
+nix profile add ./dotfiles
+```
 
 If you are on a terminal-only system with no GUI, use the `terminal` profile instead:
 
 ```sh
-nix run nixpkgs#git -- clone https://github.com/garhbod/dotfiles.git && nix profile add ./dotfiles#terminal
+nix profile add ./dotfiles#terminal
 ```
 
-### 3. Symlink config files with stow
+### 4. Symlink config files with stow
 
 ```sh
 stow -d dotfiles .
@@ -36,7 +42,7 @@ The `.stowrc` in the repo sets the target to `~/` automatically, so this will sy
 
 ## Packages
 
-The `terminal` profile includes:
+Both profiles share the following packages:
 
 | Category | Packages |
 |---|---|
@@ -45,6 +51,8 @@ The `terminal` profile includes:
 | File & text tools | `bat`, `ripgrep`, `jq`, `which` |
 | Dev tools | `git`, `mise`, `stow` |
 | AI tools | `claude-code`, `gemini-cli`, `opencode` |
+
+The default `desktop` profile extends `terminal` with additional GUI applications.
 
 ## Updating
 
