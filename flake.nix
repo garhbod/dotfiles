@@ -53,6 +53,7 @@
           	claude-code
           	gemini-cli
           	opencode
+          	codex
           ];
 
           gui = with pkgs; [
