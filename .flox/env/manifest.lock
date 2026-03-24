@@ -1,0 +1,521 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "schema-version": "1.10.0",
+    "install": {
+      "composer": {
+        "pkg-path": "php84Packages.composer"
+      },
+      "nodejs_24": {
+        "pkg-path": "nodejs_24"
+      },
+      "php84": {
+        "pkg-path": "php84"
+      },
+      "sqlite": {
+        "pkg-path": "sqlite"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {}
+  },
+  "packages": [
+    {
+      "attr_path": "php84Packages.composer",
+      "broken": false,
+      "derivation": "/nix/store/wh9fvysc13b1qi2dyvdsmqnbimnxb983-composer-2.9.5.drv",
+      "description": "Dependency Manager for PHP",
+      "install_id": "composer",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "name": "composer-2.9.5",
+      "pname": "composer",
+      "rev": "dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "rev_count": 955442,
+      "rev_date": "2026-02-27T13:13:23Z",
+      "scrape_date": "2026-03-01T04:40:47.880554Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.9.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/vfr492x7p78yavfrcjkkqhiy7ralh4p7-composer-2.9.5"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "php84Packages.composer",
+      "broken": false,
+      "derivation": "/nix/store/qc3xfkg5yddl20affl3rygfab18jmaha-composer-2.9.5.drv",
+      "description": "Dependency Manager for PHP",
+      "install_id": "composer",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "name": "composer-2.9.5",
+      "pname": "composer",
+      "rev": "dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "rev_count": 955442,
+      "rev_date": "2026-02-27T13:13:23Z",
+      "scrape_date": "2026-03-01T05:11:47.477797Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.9.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/v87hzv9swrhdyhz197bn73mj10vv643z-composer-2.9.5"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "php84Packages.composer",
+      "broken": false,
+      "derivation": "/nix/store/mprii3az2rly1cpfh7qgksxmlq1ns03i-composer-2.9.5.drv",
+      "description": "Dependency Manager for PHP",
+      "install_id": "composer",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "name": "composer-2.9.5",
+      "pname": "composer",
+      "rev": "dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "rev_count": 955442,
+      "rev_date": "2026-02-27T13:13:23Z",
+      "scrape_date": "2026-03-01T05:40:46.325250Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.9.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/lfvwpn3c6ci8zq0ickmsq1pcpbx6svfy-composer-2.9.5"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "php84Packages.composer",
+      "broken": false,
+      "derivation": "/nix/store/41iyjbk3x691lslwkypq5cb3lmr19svc-composer-2.9.5.drv",
+      "description": "Dependency Manager for PHP",
+      "install_id": "composer",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "name": "composer-2.9.5",
+      "pname": "composer",
+      "rev": "dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "rev_count": 955442,
+      "rev_date": "2026-02-27T13:13:23Z",
+      "scrape_date": "2026-03-01T06:17:52.629422Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.9.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/88iil2sb5nczip61p4z44i68bpddkxg2-composer-2.9.5"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs_24",
+      "broken": false,
+      "derivation": "/nix/store/zynpn0ip21wcqanh42ss15srn2sb9ql0-nodejs-24.13.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs_24",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "name": "nodejs-24.13.0",
+      "pname": "nodejs_24",
+      "rev": "dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "rev_count": 955442,
+      "rev_date": "2026-02-27T13:13:23Z",
+      "scrape_date": "2026-03-01T04:40:35.546586Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.13.0",
+      "outputs_to_install": [
+        "out",
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/cx0jd5mwhn7ihryyv0qp9d33f8s1iwb7-nodejs-24.13.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs_24",
+      "broken": false,
+      "derivation": "/nix/store/a9m1m1431qgbn69zv8mxlz5k1mdcg8c8-nodejs-24.13.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs_24",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "name": "nodejs-24.13.0",
+      "pname": "nodejs_24",
+      "rev": "dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "rev_count": 955442,
+      "rev_date": "2026-02-27T13:13:23Z",
+      "scrape_date": "2026-03-01T05:11:30.983999Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.13.0",
+      "outputs_to_install": [
+        "out",
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/8dsjz52869ygjd6xdvibgk3ysl3fg6zp-nodejs-24.13.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs_24",
+      "broken": false,
+      "derivation": "/nix/store/jj65hc96cp4w9gah5i2dw5lk4cxlc43i-nodejs-24.13.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs_24",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "name": "nodejs-24.13.0",
+      "pname": "nodejs_24",
+      "rev": "dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "rev_count": 955442,
+      "rev_date": "2026-02-27T13:13:23Z",
+      "scrape_date": "2026-03-01T05:40:33.889648Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.13.0",
+      "outputs_to_install": [
+        "out",
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/i9bak02hsrywwba0apxdn7ldvkf9jl6a-nodejs-24.13.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "nodejs_24",
+      "broken": false,
+      "derivation": "/nix/store/wxbalhfsivfg8cyz6s54y0hfg6alwfjd-nodejs-24.13.0.drv",
+      "description": "Event-driven I/O framework for the V8 JavaScript engine",
+      "install_id": "nodejs_24",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "name": "nodejs-24.13.0",
+      "pname": "nodejs_24",
+      "rev": "dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "rev_count": 955442,
+      "rev_date": "2026-02-27T13:13:23Z",
+      "scrape_date": "2026-03-01T06:17:35.230013Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "24.13.0",
+      "outputs_to_install": [
+        "out",
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/sy0c7j0npsq33d9zhnnzvjnzc52f4y0p-nodejs-24.13.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "php84",
+      "broken": false,
+      "derivation": "/nix/store/kygn1kbpwd33iac5vb8gkrq0vsfajnla-php-with-extensions-8.4.18.drv",
+      "description": "HTML-embedded scripting language",
+      "install_id": "php84",
+      "license": "PHP-3.01",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "name": "php-with-extensions-8.4.18",
+      "pname": "php84",
+      "rev": "dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "rev_count": 955442,
+      "rev_date": "2026-02-27T13:13:23Z",
+      "scrape_date": "2026-03-01T04:40:47.700343Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "8.4.18",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/3zazgaakh3hwh00zxyqsbh69ciqjfm2r-php-with-extensions-8.4.18"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "php84",
+      "broken": false,
+      "derivation": "/nix/store/s7pwzx45287z15mlzyqixx63vzzjywv5-php-with-extensions-8.4.18.drv",
+      "description": "HTML-embedded scripting language",
+      "install_id": "php84",
+      "license": "PHP-3.01",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "name": "php-with-extensions-8.4.18",
+      "pname": "php84",
+      "rev": "dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "rev_count": 955442,
+      "rev_date": "2026-02-27T13:13:23Z",
+      "scrape_date": "2026-03-01T05:11:47.248552Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "8.4.18",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/y1fmjjhyqfsqgrxc9h6vx7idiz9qqgin-php-with-extensions-8.4.18"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "php84",
+      "broken": false,
+      "derivation": "/nix/store/ims3jmmwyk4irf7dn68k7smmahmrs6vf-php-with-extensions-8.4.18.drv",
+      "description": "HTML-embedded scripting language",
+      "install_id": "php84",
+      "license": "PHP-3.01",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "name": "php-with-extensions-8.4.18",
+      "pname": "php84",
+      "rev": "dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "rev_count": 955442,
+      "rev_date": "2026-02-27T13:13:23Z",
+      "scrape_date": "2026-03-01T05:40:46.148259Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "8.4.18",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/6vs89ixhlv2y7y5zhf34ks0q4iq2c4kf-php-with-extensions-8.4.18"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "php84",
+      "broken": false,
+      "derivation": "/nix/store/p4bx8hc3i83h6mx27mjbwqv1ins9z6my-php-with-extensions-8.4.18.drv",
+      "description": "HTML-embedded scripting language",
+      "install_id": "php84",
+      "license": "PHP-3.01",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "name": "php-with-extensions-8.4.18",
+      "pname": "php84",
+      "rev": "dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "rev_count": 955442,
+      "rev_date": "2026-02-27T13:13:23Z",
+      "scrape_date": "2026-03-01T06:17:52.391535Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "8.4.18",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/ph298hi0ly95a7m4j9a8pz43p50bwjyc-php-with-extensions-8.4.18"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "sqlite",
+      "broken": false,
+      "derivation": "/nix/store/pcjgc8xan5pfjn9dx0vd5168gw4qw3ya-sqlite-3.51.2.drv",
+      "description": "Self-contained, serverless, zero-configuration, transactional SQL database engine",
+      "install_id": "sqlite",
+      "license": "Public Domain",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "name": "sqlite-3.51.2",
+      "pname": "sqlite",
+      "rev": "dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "rev_count": 955442,
+      "rev_date": "2026-02-27T13:13:23Z",
+      "scrape_date": "2026-03-01T04:41:54.739392Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.51.2",
+      "outputs_to_install": [
+        "bin",
+        "bin",
+        "man"
+      ],
+      "outputs": {
+        "bin": "/nix/store/h7mm7vizdfzx9dkz8yvq1h3z1dkvk68k-sqlite-3.51.2-bin",
+        "dev": "/nix/store/g3pqc7h5cyvq69xi1ci4s73cn3h5rx93-sqlite-3.51.2-dev",
+        "doc": "/nix/store/wkgrqxrqkn7pg26g9r02amdbhgqqa596-sqlite-3.51.2-doc",
+        "man": "/nix/store/3rr70fkzzwyvizkjbghbpfyy0xnpk7c8-sqlite-3.51.2-man",
+        "out": "/nix/store/n78wl37nhy4qfspmkl37ib43fl9mgzkl-sqlite-3.51.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "sqlite",
+      "broken": false,
+      "derivation": "/nix/store/2k90r7kdjkj257vihjas83q5af4h1ib7-sqlite-3.51.2.drv",
+      "description": "Self-contained, serverless, zero-configuration, transactional SQL database engine",
+      "install_id": "sqlite",
+      "license": "Public Domain",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "name": "sqlite-3.51.2",
+      "pname": "sqlite",
+      "rev": "dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "rev_count": 955442,
+      "rev_date": "2026-02-27T13:13:23Z",
+      "scrape_date": "2026-03-01T05:13:09.983589Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.51.2",
+      "outputs_to_install": [
+        "bin",
+        "bin",
+        "bin",
+        "man"
+      ],
+      "outputs": {
+        "bin": "/nix/store/8nlaycnvd4dc6q7vdh9nmda5rfw2wq1l-sqlite-3.51.2-bin",
+        "debug": "/nix/store/wr8dr1fpnv9qb4n3hvl8h56yf613605w-sqlite-3.51.2-debug",
+        "dev": "/nix/store/hxcb0bf92dz5xm5i9ksb54m78d9mnbkv-sqlite-3.51.2-dev",
+        "doc": "/nix/store/66hhhlpis6bxgvjq2bnd7m97qryzmpjd-sqlite-3.51.2-doc",
+        "man": "/nix/store/q391c8xkvjy9q7qr2h18f6hci3gsyfmy-sqlite-3.51.2-man",
+        "out": "/nix/store/0abc9j54cpa41gmdcibp2hcyycd4w2dx-sqlite-3.51.2"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "sqlite",
+      "broken": false,
+      "derivation": "/nix/store/qvy916bzvzgfc4dahf89w8cqfdrbjgdz-sqlite-3.51.2.drv",
+      "description": "Self-contained, serverless, zero-configuration, transactional SQL database engine",
+      "install_id": "sqlite",
+      "license": "Public Domain",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "name": "sqlite-3.51.2",
+      "pname": "sqlite",
+      "rev": "dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "rev_count": 955442,
+      "rev_date": "2026-02-27T13:13:23Z",
+      "scrape_date": "2026-03-01T05:41:52.730345Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.51.2",
+      "outputs_to_install": [
+        "bin",
+        "bin",
+        "man"
+      ],
+      "outputs": {
+        "bin": "/nix/store/3n7rwbzrqg3v9x1zkcyca2p7vqn6006k-sqlite-3.51.2-bin",
+        "dev": "/nix/store/vwzw5yj8z88sza9sczg9ra8lfx6zqv1f-sqlite-3.51.2-dev",
+        "doc": "/nix/store/s7dhcwp8c67s3711g3cavn8pcm7q6d0d-sqlite-3.51.2-doc",
+        "man": "/nix/store/6n9alxra4pk4gcvirric8676p0nvajgx-sqlite-3.51.2-man",
+        "out": "/nix/store/vr5ff6vjdy7z2g7zsnr2fhd83fdb22j6-sqlite-3.51.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "sqlite",
+      "broken": false,
+      "derivation": "/nix/store/694v38pcxlnj0pzslmhwgyxzr3sdravh-sqlite-3.51.2.drv",
+      "description": "Self-contained, serverless, zero-configuration, transactional SQL database engine",
+      "install_id": "sqlite",
+      "license": "Public Domain",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "name": "sqlite-3.51.2",
+      "pname": "sqlite",
+      "rev": "dd9b079222d43e1943b6ebd802f04fd959dc8e61",
+      "rev_count": 955442,
+      "rev_date": "2026-02-27T13:13:23Z",
+      "scrape_date": "2026-03-01T06:19:18.646035Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.51.2",
+      "outputs_to_install": [
+        "bin",
+        "bin",
+        "bin",
+        "man"
+      ],
+      "outputs": {
+        "bin": "/nix/store/k87a0gv4hg1zmm8j5d3ffmxyvhr13i41-sqlite-3.51.2-bin",
+        "debug": "/nix/store/npq7nfarcsgqd0ks8x0crlksiy5lvvfn-sqlite-3.51.2-debug",
+        "dev": "/nix/store/5j4mx4vckmmms2spy8x8kqjxcb12kpf5-sqlite-3.51.2-dev",
+        "doc": "/nix/store/ggx362g7cci0gjlyd3kc39gcbkwrzvkz-sqlite-3.51.2-doc",
+        "man": "/nix/store/msdk5dj7zsrxyzdfirfdj2pgff5s2qbn-sqlite-3.51.2-man",
+        "out": "/nix/store/whs07fdxlw22fi8b3jzd2z871dh41qx6-sqlite-3.51.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
