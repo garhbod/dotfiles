@@ -1,11 +1,16 @@
 {
   description = "Universal Dotfiles Package Flake";
 
+  nixConfig = {
+    extra-trusted-substituters = ["https://cache.flox.dev"];
+    extra-trusted-public-keys = ["flox-cache-public-1:7F4OyH7ZCnFhcze3fJdfyXYLQw/aV7GEed86nQ7IsOs="];
+  };
+
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
   };
 
-  outputs = { self, nixpkgs }:
+  outputs = { self, nixpkgs, ... }:
     let
       # The systems supported for this flake's outputs
       supportedSystems = [
@@ -22,12 +27,13 @@
       nixpkgsFor = system: import nixpkgs {
         inherit system;
         config.allowUnfree = true;
-      };in {
+      };
+    in {
       # This generates packages for every system in supportedSystems
       packages = forAllSystems (system:
         let
           pkgs = nixpkgsFor system;
-          
+
           # Category definitions
           cli = with pkgs; [
             bat
@@ -50,10 +56,10 @@
           ];
 
           ai = with pkgs; [
-          	claude-code
-          	gemini-cli
-          	opencode
-          	codex
+            claude-code
+            codex
+            gemini-cli
+            opencode
           ];
 
           gui = with pkgs; [
@@ -78,3 +84,4 @@
       );
     };
 }
+
