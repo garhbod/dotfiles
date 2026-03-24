@@ -42,6 +42,7 @@
             git
             jq
             # kanata
+            laravel
             # lazygit
             micro
             mise
