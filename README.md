@@ -23,39 +23,31 @@ This uses `nix run` to temporarily get `git` without permanently installing it.
 ### 3. Install packages
 
 ```sh
-nix profile add ./dotfiles
-```
-
-If you are on a terminal-only system with no GUI, use the `terminal` profile instead:
-
-```sh
-nix profile add ./dotfiles#terminal
+nix profile add ~/dotfiles
 ```
 
 ### 4. Symlink config files with stow
 
 ```sh
-stow -d dotfiles .
+stow -d ~/dotfiles .
 ```
 
 The `.stowrc` in the repo sets the target to `~/` automatically, so this will symlink everything in `.config/` and other dotfiles into your home directory.
 
 ## Packages
 
-Both profiles share the following packages:
+Included packages:
 
 | Category | Packages |
 |---|---|
 | Shell & navigation | `fish`, `starship`, `zoxide`, `fzf`, `tmux` |
 | Editors | `neovim`, `micro`, `nano` |
 | File & text tools | `bat`, `ripgrep`, `jq`, `which` |
-| Dev tools | `git`, `mise`, `stow` |
-| AI tools | `claude-code`, `gemini-cli`, `opencode` |
-
-The default `desktop` profile extends `terminal` with additional GUI applications.
+| Dev tools | `git`, `laravel`, `stow` |
+| AI tools | `claude-code`, `codex`, `gemini-cli`, `opencode` |
 
 ## Updating
 
 ```sh
-nix profile upgrade '.*'
+nix profile upgrade --all
 ```
