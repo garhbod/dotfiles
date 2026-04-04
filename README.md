@@ -29,10 +29,10 @@ nix profile add ~/dotfiles
 ### 4. Symlink config files with stow
 
 ```sh
-stow -d ~/dotfiles .
+cd ~/dotfiles && stow .
 ```
 
-The `.stowrc` in the repo sets the target to `~/` automatically, so this will symlink everything in `.config/` and other dotfiles into your home directory.
+The `.stowrc` in the repo sets the target to `~/` and ignores non-config files. Running from within the directory ensures `.stowrc` is read.
 
 ## Packages
 
@@ -45,6 +45,14 @@ Included packages:
 | File & text tools | `bat`, `ripgrep`, `jq`, `which` |
 | Dev tools | `git`, `laravel`, `stow` |
 | AI tools | `claude-code`, `codex`, `gemini-cli`, `opencode` |
+
+## Caddy
+
+To start Caddy with the included Caddyfile:
+
+```sh
+caddy run --config ~/dotfiles/caddy/Caddyfile
+```
 
 ## Updating
 

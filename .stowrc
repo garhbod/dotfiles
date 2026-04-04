@@ -1,2 +1,6 @@
+--dir=~/dotfiles
 --target=~/
---ignore=.stowrc
+--ignore='\.stowrc'
+--ignore='flake.*'
+--ignore='\.flox'
+--ignore='caddy'
