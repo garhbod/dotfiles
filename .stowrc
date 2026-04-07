@@ -1,6 +1,8 @@
 --dir=~/dotfiles
 --target=~/
---ignore='\.stowrc'
---ignore='flake.*'
+--ignore='\.codex'
+--ignore='\.claude'
 --ignore='\.flox'
+--ignore='\.stowrc'
 --ignore='caddy'
+--ignore='flake.*'

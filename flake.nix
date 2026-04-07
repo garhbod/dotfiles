@@ -7,8 +7,9 @@
   };
 
   inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable-small";
     # nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-25.11";
+    # nixpkgs.url = "github:nixos/nixpkgs/nixos-25.11";
   };
 
   outputs = { self, nixpkgs, ... }:
@@ -55,6 +56,7 @@
           ai = with pkgs; [
             claude-code
             codex
+            cursor-cli
             gemini-cli
             opencode
           ];

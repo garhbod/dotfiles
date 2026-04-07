@@ -1,2 +1,8 @@
 # direnv
 .direnv
+
+# codex
+.codex
+
+# claude
+.claude
