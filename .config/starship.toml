@@ -4,12 +4,12 @@ format = """
 [](color_orange)\
 $os\
 $username\
-[](bg:color_yellow fg:color_orange)\
+[ ](bg:color_yellow fg:color_orange)\
 $directory\
-[](fg:color_yellow bg:color_aqua)\
+[ ](fg:color_yellow bg:color_aqua)\
 $git_branch\
 $git_status\
-[](fg:color_aqua bg:color_blue)\
+[ ](fg:color_aqua bg:color_blue)\
 $c\
 $cpp\
 $rust\
@@ -20,16 +20,17 @@ $java\
 $kotlin\
 $haskell\
 $python\
-[](fg:color_blue bg:color_bg3)\
+[ ](fg:color_blue bg:color_bg3)\
 $docker_context\
 $conda\
 $pixi\
-[](fg:color_bg3 bg:color_bg1)\
+${env_var.flox_env}\
+[ ](fg:color_bg3 bg:color_bg1)\
 $time\
 [ ](fg:color_bg1)\
 $line_break$character"""
 
-palette = 'gruvbox_dark'
+palette = 'rose_pine_dawn'
 
 [palettes.gruvbox_dark]
 color_fg0 = '#fbf1c7'
@@ -37,11 +38,47 @@ color_bg1 = '#3c3836'
 color_bg3 = '#665c54'
 color_blue = '#458588'
 color_aqua = '#689d6a'
-color_green = '#98971a'
+color_yellow = '#d79921'
 color_orange = '#d65d0e'
+color_green = '#98971a'
 color_purple = '#b16286'
 color_red = '#cc241d'
-color_yellow = '#d79921'
+
+[palettes.rose_pine]
+color_fg0 = '#232136'
+color_bg1 = '#31748f'
+color_bg3 = '#9ccfd8'
+color_blue = '#f6c177'
+color_aqua = '#ebbcba'
+color_yellow = '#eb6f92'
+color_orange = '#c4a7e7'
+color_green = '#31748f'
+color_purple = '#eb6f92'
+color_red = '#f6c177'
+
+[palettes.rose_pine_moon]
+color_fg0 = '#232136'
+color_bg1 = '#3e8fb0'
+color_bg3 = '#9ccfd8'
+color_blue = '#f6c177'
+color_aqua = '#ea9a97'
+color_yellow = '#eb6f92'
+color_orange = '#c4a7e7'
+color_green = '#3e8fb0'
+color_purple = '#eb6f92'
+color_red = '#f6c177'
+
+[palettes.rose_pine_dawn]
+color_fg0 = '#fffaf3'
+color_bg1 = '#286983'
+color_bg3 = '#56949f'
+color_blue = '#ea9d34'
+color_aqua = '#d7827e'
+color_yellow = '#b4637a'
+color_orange = '#907aa9'
+color_green = '#286983'
+color_purple = '#b4637a'
+color_red = '#ea9d34'
 
 [os]
 disabled = false
@@ -161,6 +198,13 @@ format = '[[ $symbol( $environment) ](fg:#83a598 bg:color_bg3)]($style)'
 [pixi]
 style = "bg:color_bg3"
 format = '[[ $symbol( $version)( $environment) ](fg:color_fg0 bg:color_bg3)]($style)'
+
+[env_var.flox_env]
+symbol = "󰼪"
+description = "Show flox environment"
+variable = "FLOX_PROMPT_ENVIRONMENTS"
+style = "bg:color_bg3"
+format = '[[ $symbol( $env_value) ](fg:color_fg0 bg:color_bg3)]($style)'
 
 [time]
 disabled = false
