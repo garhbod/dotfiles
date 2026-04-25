@@ -37,6 +37,7 @@
             caddy
             fish
             fzf
+            gh
             git
             jq
             # kanata
@@ -48,6 +49,7 @@
             ripgrep
             starship
             stow
+            # tailscale
             tmux
             which
             zoxide
@@ -63,7 +65,11 @@
         in {
           default = pkgs.buildEnv {
             name = "terminal-env";
-            paths = cli ++ ai;
+            paths = cli;
+          };
+          ai = pkgs.buildEnv {
+            name = "ai-env";
+            paths = ai;
           };
         }
       );
