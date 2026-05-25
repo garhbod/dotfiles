@@ -2,7 +2,6 @@
 --target=~/
 --ignore='\.codex'
 --ignore='\.claude'
---ignore='\.flox'
 --ignore='\.stowrc'
 --ignore='caddy'
 --ignore='flake.*'

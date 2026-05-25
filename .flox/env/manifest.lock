@@ -1,0 +1,579 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "schema-version": "1.12.0",
+    "install": {
+      "claude-code": {
+        "pkg-path": "flox/claude-code",
+        "pkg-group": "claude-code"
+      },
+      "codex": {
+        "pkg-path": "flox/codex",
+        "pkg-group": "codex"
+      },
+      "cursor-cli": {
+        "pkg-path": "cursor-cli"
+      },
+      "gemini-cli": {
+        "pkg-path": "flox/gemini-cli",
+        "pkg-group": "gemini-cli"
+      },
+      "goose-cli": {
+        "pkg-path": "flox/goose-cli",
+        "pkg-group": "goose-cli"
+      },
+      "kilocode-cli": {
+        "pkg-path": "flox/kilocode-cli",
+        "pkg-group": "kilocode-cli"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-linux"
+      ]
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "claude-code",
+      "broken": false,
+      "derivation": "/nix/store/2linjb2fnlza6k0ncri3f6cx18qvbwha-claude-code-2.1.150.drv",
+      "description": "Agentic coding tool from Anthropic",
+      "install_id": "claude-code",
+      "license": "Unfree",
+      "locked_url": "https://github.com/flox/floxenvs?rev=309753570cc53c52fce43e5c24168e4f19a80db9",
+      "name": "claude-code-2.1.150",
+      "pname": "claude-code",
+      "rev": "309753570cc53c52fce43e5c24168e4f19a80db9",
+      "rev_count": 4044,
+      "rev_date": "2026-05-23T07:24:08Z",
+      "scrape_date": "2026-05-25T02:18:41.569210644Z",
+      "stabilities": [
+        "unstable",
+        "staging"
+      ],
+      "unfree": true,
+      "version": "2.1.150",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/s232fw4v5p54sn7srzl0m02l017vzk9p-claude-code-2.1.150"
+      },
+      "system": "aarch64-darwin",
+      "group": "claude-code",
+      "priority": 5
+    },
+    {
+      "attr_path": "claude-code",
+      "broken": false,
+      "derivation": "/nix/store/ydw6nh7s1zlwafgbpckwngl16gkzzffm-claude-code-2.1.150.drv",
+      "description": "Agentic coding tool from Anthropic",
+      "install_id": "claude-code",
+      "license": "Unfree",
+      "locked_url": "https://github.com/flox/floxenvs?rev=309753570cc53c52fce43e5c24168e4f19a80db9",
+      "name": "claude-code-2.1.150",
+      "pname": "claude-code",
+      "rev": "309753570cc53c52fce43e5c24168e4f19a80db9",
+      "rev_count": 4044,
+      "rev_date": "2026-05-23T07:24:08Z",
+      "scrape_date": "2026-05-25T02:18:41.569229272Z",
+      "stabilities": [
+        "unstable",
+        "staging"
+      ],
+      "unfree": true,
+      "version": "2.1.150",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/w7kwhvpb2iins7z9wzdw07k5pjimm3fh-claude-code-2.1.150"
+      },
+      "system": "aarch64-linux",
+      "group": "claude-code",
+      "priority": 5
+    },
+    {
+      "attr_path": "claude-code",
+      "broken": false,
+      "derivation": "/nix/store/p5ifr6w2kdvpl27n3dl6phqngz5m5zkn-claude-code-2.1.150.drv",
+      "description": "Agentic coding tool from Anthropic",
+      "install_id": "claude-code",
+      "license": "Unfree",
+      "locked_url": "https://github.com/flox/floxenvs?rev=309753570cc53c52fce43e5c24168e4f19a80db9",
+      "name": "claude-code-2.1.150",
+      "pname": "claude-code",
+      "rev": "309753570cc53c52fce43e5c24168e4f19a80db9",
+      "rev_count": 4044,
+      "rev_date": "2026-05-23T07:24:08Z",
+      "scrape_date": "2026-05-25T02:18:41.569238930Z",
+      "stabilities": [
+        "unstable",
+        "staging"
+      ],
+      "unfree": true,
+      "version": "2.1.150",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/1zibdimvajsmqcj1zrvsi4hmv6v1gz0n-claude-code-2.1.150"
+      },
+      "system": "x86_64-linux",
+      "group": "claude-code",
+      "priority": 5
+    },
+    {
+      "attr_path": "codex",
+      "broken": false,
+      "derivation": "/nix/store/lvn64dv30p6fc7ffgwh1qwmhzg4h4kif-codex-0.132.0.drv",
+      "description": "OpenAI Codex CLI - a coding agent that runs locally",
+      "install_id": "codex",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/floxenvs?rev=19c87d16bdf4ae8432cda0b7e5f42ab2704d323f",
+      "name": "codex-0.132.0",
+      "pname": "codex",
+      "rev": "19c87d16bdf4ae8432cda0b7e5f42ab2704d323f",
+      "rev_count": 3536,
+      "rev_date": "2026-05-20T10:17:17Z",
+      "scrape_date": "2026-05-25T02:19:37.690518927Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.132.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/n1yvaq58dhg3gxan11cac2mfi4riqghj-codex-0.132.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "codex",
+      "priority": 5
+    },
+    {
+      "attr_path": "codex",
+      "broken": false,
+      "derivation": "/nix/store/hvl2f72ijifq6v6amd4jwqvr10xf8r51-codex-0.132.0.drv",
+      "description": "OpenAI Codex CLI - a coding agent that runs locally",
+      "install_id": "codex",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/floxenvs?rev=19c87d16bdf4ae8432cda0b7e5f42ab2704d323f",
+      "name": "codex-0.132.0",
+      "pname": "codex",
+      "rev": "19c87d16bdf4ae8432cda0b7e5f42ab2704d323f",
+      "rev_count": 3536,
+      "rev_date": "2026-05-20T10:17:17Z",
+      "scrape_date": "2026-05-25T02:19:37.690531145Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.132.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/1kpycgwp6qrf2r3lwb1kzrpl35qmlm90-codex-0.132.0"
+      },
+      "system": "aarch64-linux",
+      "group": "codex",
+      "priority": 5
+    },
+    {
+      "attr_path": "codex",
+      "broken": false,
+      "derivation": "/nix/store/ryw0ll24gcxn2pgjma4g7sc6z3gx4adf-codex-0.132.0.drv",
+      "description": "OpenAI Codex CLI - a coding agent that runs locally",
+      "install_id": "codex",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/floxenvs?rev=19c87d16bdf4ae8432cda0b7e5f42ab2704d323f",
+      "name": "codex-0.132.0",
+      "pname": "codex",
+      "rev": "19c87d16bdf4ae8432cda0b7e5f42ab2704d323f",
+      "rev_count": 3536,
+      "rev_date": "2026-05-20T10:17:17Z",
+      "scrape_date": "2026-05-25T02:19:37.690536267Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.132.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/yjsp9mch6il7rhcpgny7c2w8izxwf22v-codex-0.132.0"
+      },
+      "system": "x86_64-linux",
+      "group": "codex",
+      "priority": 5
+    },
+    {
+      "attr_path": "gemini-cli",
+      "broken": false,
+      "derivation": "/nix/store/dlm2dm42k780q0jam47rmjhnzkav2f9d-gemini-cli-0.43.0.drv",
+      "description": "AI agent that brings Gemini directly into your terminal",
+      "install_id": "gemini-cli",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/floxenvs?rev=e7d9eb11648f4a9a8aa4a5270776538cda9098ea",
+      "name": "gemini-cli-0.43.0",
+      "pname": "gemini-cli",
+      "rev": "e7d9eb11648f4a9a8aa4a5270776538cda9098ea",
+      "rev_count": 3849,
+      "rev_date": "2026-05-22T07:36:53Z",
+      "scrape_date": "2026-05-25T02:21:13.213433197Z",
+      "stabilities": [
+        "unstable",
+        "staging"
+      ],
+      "unfree": false,
+      "version": "0.43.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/281gjdvc0qwf94w03mnvwvkkprafwcdw-gemini-cli-0.43.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "gemini-cli",
+      "priority": 5
+    },
+    {
+      "attr_path": "gemini-cli",
+      "broken": false,
+      "derivation": "/nix/store/sqc83mdh5dfl0x9923rda9g90k95p6ka-gemini-cli-0.43.0.drv",
+      "description": "AI agent that brings Gemini directly into your terminal",
+      "install_id": "gemini-cli",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/floxenvs?rev=e7d9eb11648f4a9a8aa4a5270776538cda9098ea",
+      "name": "gemini-cli-0.43.0",
+      "pname": "gemini-cli",
+      "rev": "e7d9eb11648f4a9a8aa4a5270776538cda9098ea",
+      "rev_count": 3849,
+      "rev_date": "2026-05-22T07:36:53Z",
+      "scrape_date": "2026-05-25T02:21:13.213449534Z",
+      "stabilities": [
+        "unstable",
+        "staging"
+      ],
+      "unfree": false,
+      "version": "0.43.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/k74s6rwpcnx3lfgyw7xva7w6dy06pcji-gemini-cli-0.43.0"
+      },
+      "system": "aarch64-linux",
+      "group": "gemini-cli",
+      "priority": 5
+    },
+    {
+      "attr_path": "gemini-cli",
+      "broken": false,
+      "derivation": "/nix/store/57dqwqfar02ddgpgnr4fasf87sfvia0w-gemini-cli-0.43.0.drv",
+      "description": "AI agent that brings Gemini directly into your terminal",
+      "install_id": "gemini-cli",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/floxenvs?rev=e7d9eb11648f4a9a8aa4a5270776538cda9098ea",
+      "name": "gemini-cli-0.43.0",
+      "pname": "gemini-cli",
+      "rev": "e7d9eb11648f4a9a8aa4a5270776538cda9098ea",
+      "rev_count": 3849,
+      "rev_date": "2026-05-22T07:36:53Z",
+      "scrape_date": "2026-05-25T02:21:13.213459703Z",
+      "stabilities": [
+        "unstable",
+        "staging"
+      ],
+      "unfree": false,
+      "version": "0.43.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/l6nlkvhj4whnz11wph632qarxxlxzjs5-gemini-cli-0.43.0"
+      },
+      "system": "x86_64-linux",
+      "group": "gemini-cli",
+      "priority": 5
+    },
+    {
+      "attr_path": "goose-cli",
+      "broken": false,
+      "derivation": "/nix/store/mp5b4gkxib5a8hdygdrld1057in67cya-goose-cli-1.35.0.drv",
+      "description": "Block's local, extensible, open source AI engineering agent",
+      "install_id": "goose-cli",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/floxenvs?rev=4cef758e774ff809d2a41e5036b2fcd9bf8e8163",
+      "name": "goose-cli-1.35.0",
+      "pname": "goose-cli",
+      "rev": "4cef758e774ff809d2a41e5036b2fcd9bf8e8163",
+      "rev_count": 3853,
+      "rev_date": "2026-05-22T08:14:04Z",
+      "scrape_date": "2026-05-25T00:45:32.903335988Z",
+      "stabilities": [
+        "unstable",
+        "staging"
+      ],
+      "unfree": false,
+      "version": "1.35.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/55wlrdhdmiic2prp50lcfa0b4nvgjnya-goose-cli-1.35.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "goose-cli",
+      "priority": 5
+    },
+    {
+      "attr_path": "goose-cli",
+      "broken": false,
+      "derivation": "/nix/store/7cw7wf14vdar554gz9s2vfhiqww97a52-goose-cli-1.35.0.drv",
+      "description": "Block's local, extensible, open source AI engineering agent",
+      "install_id": "goose-cli",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/floxenvs?rev=4cef758e774ff809d2a41e5036b2fcd9bf8e8163",
+      "name": "goose-cli-1.35.0",
+      "pname": "goose-cli",
+      "rev": "4cef758e774ff809d2a41e5036b2fcd9bf8e8163",
+      "rev_count": 3853,
+      "rev_date": "2026-05-22T08:14:04Z",
+      "scrape_date": "2026-05-25T00:45:32.903350657Z",
+      "stabilities": [
+        "unstable",
+        "staging"
+      ],
+      "unfree": false,
+      "version": "1.35.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/h29v1b08cx06w4c0yz3wgwhlkfpmlwna-goose-cli-1.35.0"
+      },
+      "system": "aarch64-linux",
+      "group": "goose-cli",
+      "priority": 5
+    },
+    {
+      "attr_path": "goose-cli",
+      "broken": false,
+      "derivation": "/nix/store/fisjcxf5xl3p99b9qxj5dmw1gziq2chz-goose-cli-1.35.0.drv",
+      "description": "Block's local, extensible, open source AI engineering agent",
+      "install_id": "goose-cli",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/floxenvs?rev=4cef758e774ff809d2a41e5036b2fcd9bf8e8163",
+      "name": "goose-cli-1.35.0",
+      "pname": "goose-cli",
+      "rev": "4cef758e774ff809d2a41e5036b2fcd9bf8e8163",
+      "rev_count": 3853,
+      "rev_date": "2026-05-22T08:14:04Z",
+      "scrape_date": "2026-05-25T00:45:32.903359101Z",
+      "stabilities": [
+        "unstable",
+        "staging"
+      ],
+      "unfree": false,
+      "version": "1.35.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/7ni41m6yi9kgbfd7f8n12mmx0zgaznd1-goose-cli-1.35.0"
+      },
+      "system": "x86_64-linux",
+      "group": "goose-cli",
+      "priority": 5
+    },
+    {
+      "attr_path": "cursor-cli",
+      "broken": false,
+      "derivation": "/nix/store/02ijxglz6yf3kmlknr0c57nnm2gm2mnn-cursor-cli-0-unstable-2026-05-16.drv",
+      "description": "Cursor CLI",
+      "install_id": "cursor-cli",
+      "license": "Unfree",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=29916453413845e54a65b8a1cf996842300cd299",
+      "name": "cursor-cli-0-unstable-2026-05-16",
+      "pname": "cursor-cli",
+      "rev": "29916453413845e54a65b8a1cf996842300cd299",
+      "rev_count": 1003640,
+      "rev_date": "2026-05-23T03:54:30Z",
+      "scrape_date": "2026-05-24T07:05:50.873762Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": true,
+      "version": "2026-05-16",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/jlbw7q8caxh3yqnbvc8cj13wg998gcfk-cursor-cli-0-unstable-2026-05-16"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "cursor-cli",
+      "broken": false,
+      "derivation": "/nix/store/aycfk6950lyf9kqq2qg6q728607r75hq-cursor-cli-0-unstable-2026-05-16.drv",
+      "description": "Cursor CLI",
+      "install_id": "cursor-cli",
+      "license": "Unfree",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=29916453413845e54a65b8a1cf996842300cd299",
+      "name": "cursor-cli-0-unstable-2026-05-16",
+      "pname": "cursor-cli",
+      "rev": "29916453413845e54a65b8a1cf996842300cd299",
+      "rev_count": 1003640,
+      "rev_date": "2026-05-23T03:54:30Z",
+      "scrape_date": "2026-05-24T07:34:04.744571Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": true,
+      "version": "2026-05-16",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/wy8bmb89rdailj3r54rw9hxn8df6hbia-cursor-cli-0-unstable-2026-05-16"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "cursor-cli",
+      "broken": false,
+      "derivation": "/nix/store/kbj7ihxr49apsfla235q580phla5hqr9-cursor-cli-0-unstable-2026-05-16.drv",
+      "description": "Cursor CLI",
+      "install_id": "cursor-cli",
+      "license": "Unfree",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=29916453413845e54a65b8a1cf996842300cd299",
+      "name": "cursor-cli-0-unstable-2026-05-16",
+      "pname": "cursor-cli",
+      "rev": "29916453413845e54a65b8a1cf996842300cd299",
+      "rev_count": 1003640,
+      "rev_date": "2026-05-23T03:54:30Z",
+      "scrape_date": "2026-05-24T08:31:56.004450Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": true,
+      "version": "2026-05-16",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/nlw0c19ybf0cvgm6w5dd7003v7mr7drn-cursor-cli-0-unstable-2026-05-16"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "kilocode-cli",
+      "broken": false,
+      "derivation": "/nix/store/0wnj0fsh89aj5k4d646421ashxlxgwsd-kilocode-cli-7.2.20.drv",
+      "description": "The open-source AI coding agent. Now available in your terminal.",
+      "install_id": "kilocode-cli",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/barstoolbluz/nix-ai-tools?rev=4305bb29005f77a384e1ebe22ec59789ed2bbb02",
+      "name": "kilocode-cli-7.2.20",
+      "pname": "kilocode-cli",
+      "rev": "4305bb29005f77a384e1ebe22ec59789ed2bbb02",
+      "rev_count": 1,
+      "rev_date": "2026-04-23T06:07:42Z",
+      "scrape_date": "2026-05-25T02:39:53.870941875Z",
+      "stabilities": [
+        "unstable",
+        "staging",
+        "stable"
+      ],
+      "unfree": false,
+      "version": "7.2.20",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/f0mrk646a0agz45yj9225sndnzyp9s57-kilocode-cli-7.2.20"
+      },
+      "system": "aarch64-darwin",
+      "group": "kilocode-cli",
+      "priority": 5
+    },
+    {
+      "attr_path": "kilocode-cli",
+      "broken": false,
+      "derivation": "/nix/store/2y00w1769kxxr714cqbzglm4a4c0zpjd-kilocode-cli-7.2.20.drv",
+      "description": "The open-source AI coding agent. Now available in your terminal.",
+      "install_id": "kilocode-cli",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/barstoolbluz/nix-ai-tools?rev=4305bb29005f77a384e1ebe22ec59789ed2bbb02",
+      "name": "kilocode-cli-7.2.20",
+      "pname": "kilocode-cli",
+      "rev": "4305bb29005f77a384e1ebe22ec59789ed2bbb02",
+      "rev_count": 1,
+      "rev_date": "2026-04-23T06:07:42Z",
+      "scrape_date": "2026-05-25T02:39:53.870956980Z",
+      "stabilities": [
+        "unstable",
+        "staging",
+        "stable"
+      ],
+      "unfree": false,
+      "version": "7.2.20",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/5hrrxx8qys93z5qjqbgvhcz69syg3bpw-kilocode-cli-7.2.20"
+      },
+      "system": "aarch64-linux",
+      "group": "kilocode-cli",
+      "priority": 5
+    },
+    {
+      "attr_path": "kilocode-cli",
+      "broken": false,
+      "derivation": "/nix/store/vbyb3hmya85n32glw4k82dzqg7p639i2-kilocode-cli-7.2.20.drv",
+      "description": "The open-source AI coding agent. Now available in your terminal.",
+      "install_id": "kilocode-cli",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/barstoolbluz/nix-ai-tools?rev=4305bb29005f77a384e1ebe22ec59789ed2bbb02",
+      "name": "kilocode-cli-7.2.20",
+      "pname": "kilocode-cli",
+      "rev": "4305bb29005f77a384e1ebe22ec59789ed2bbb02",
+      "rev_count": 1,
+      "rev_date": "2026-04-23T06:07:42Z",
+      "scrape_date": "2026-05-25T02:39:53.870961139Z",
+      "stabilities": [
+        "unstable",
+        "staging",
+        "stable"
+      ],
+      "unfree": false,
+      "version": "7.2.20",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/446rsflhgpbhwyv20dipmvhp6jfgmi4b-kilocode-cli-7.2.20"
+      },
+      "system": "x86_64-linux",
+      "group": "kilocode-cli",
+      "priority": 5
+    }
+  ]
+}

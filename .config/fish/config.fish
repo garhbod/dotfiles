@@ -13,6 +13,9 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
     # prompt, aliases, etc.
     
-    # Initialize Starship
+    # Initialise Starship
     starship init fish | source
+
+    # Initialise Flox default env
+    flox activate --dir ~ -m run | source
 end
