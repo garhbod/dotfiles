@@ -25,6 +25,10 @@
       "kilocode-cli": {
         "pkg-path": "flox/kilocode-cli",
         "pkg-group": "kilocode-cli"
+      },
+      "pi": {
+        "pkg-path": "flox/pi",
+        "pkg-group": "pi"
       }
     },
     "hook": {},
@@ -41,28 +45,28 @@
     {
       "attr_path": "claude-code",
       "broken": false,
-      "derivation": "/nix/store/2linjb2fnlza6k0ncri3f6cx18qvbwha-claude-code-2.1.150.drv",
+      "derivation": "/nix/store/difc60pg2cm5a25s293b2fb1j6k4hsm3-claude-code-2.1.157.drv",
       "description": "Agentic coding tool from Anthropic",
       "install_id": "claude-code",
       "license": "Unfree",
-      "locked_url": "https://github.com/flox/floxenvs?rev=309753570cc53c52fce43e5c24168e4f19a80db9",
-      "name": "claude-code-2.1.150",
+      "locked_url": "https://github.com/flox/floxenvs?rev=281a0e4f3ad5607bf5ff1d5796d72550801165f7",
+      "name": "claude-code-2.1.157",
       "pname": "claude-code",
-      "rev": "309753570cc53c52fce43e5c24168e4f19a80db9",
-      "rev_count": 4044,
-      "rev_date": "2026-05-23T07:24:08Z",
-      "scrape_date": "2026-05-25T02:18:41.569210644Z",
+      "rev": "281a0e4f3ad5607bf5ff1d5796d72550801165f7",
+      "rev_count": 5073,
+      "rev_date": "2026-05-30T01:11:12Z",
+      "scrape_date": "2026-05-30T03:00:10.850290831Z",
       "stabilities": [
         "unstable",
         "staging"
       ],
       "unfree": true,
-      "version": "2.1.150",
+      "version": "2.1.157",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/s232fw4v5p54sn7srzl0m02l017vzk9p-claude-code-2.1.150"
+        "out": "/nix/store/pa426fsxfq6hx2m1wml5d1vd448vxl4x-claude-code-2.1.157"
       },
       "system": "aarch64-darwin",
       "group": "claude-code",
@@ -71,28 +75,28 @@
     {
       "attr_path": "claude-code",
       "broken": false,
-      "derivation": "/nix/store/ydw6nh7s1zlwafgbpckwngl16gkzzffm-claude-code-2.1.150.drv",
+      "derivation": "/nix/store/i0lbs4l8sg07pxm5c66dh58cv51pchwd-claude-code-2.1.157.drv",
       "description": "Agentic coding tool from Anthropic",
       "install_id": "claude-code",
       "license": "Unfree",
-      "locked_url": "https://github.com/flox/floxenvs?rev=309753570cc53c52fce43e5c24168e4f19a80db9",
-      "name": "claude-code-2.1.150",
+      "locked_url": "https://github.com/flox/floxenvs?rev=281a0e4f3ad5607bf5ff1d5796d72550801165f7",
+      "name": "claude-code-2.1.157",
       "pname": "claude-code",
-      "rev": "309753570cc53c52fce43e5c24168e4f19a80db9",
-      "rev_count": 4044,
-      "rev_date": "2026-05-23T07:24:08Z",
-      "scrape_date": "2026-05-25T02:18:41.569229272Z",
+      "rev": "281a0e4f3ad5607bf5ff1d5796d72550801165f7",
+      "rev_count": 5073,
+      "rev_date": "2026-05-30T01:11:12Z",
+      "scrape_date": "2026-05-30T03:00:10.850303836Z",
       "stabilities": [
         "unstable",
         "staging"
       ],
       "unfree": true,
-      "version": "2.1.150",
+      "version": "2.1.157",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/w7kwhvpb2iins7z9wzdw07k5pjimm3fh-claude-code-2.1.150"
+        "out": "/nix/store/83dzpvx2sjh8wyghkysvrr9mad1m6nkr-claude-code-2.1.157"
       },
       "system": "aarch64-linux",
       "group": "claude-code",
@@ -101,28 +105,28 @@
     {
       "attr_path": "claude-code",
       "broken": false,
-      "derivation": "/nix/store/p5ifr6w2kdvpl27n3dl6phqngz5m5zkn-claude-code-2.1.150.drv",
+      "derivation": "/nix/store/vi13jihv57pnhwbbbcyghrjnz4wvpany-claude-code-2.1.157.drv",
       "description": "Agentic coding tool from Anthropic",
       "install_id": "claude-code",
       "license": "Unfree",
-      "locked_url": "https://github.com/flox/floxenvs?rev=309753570cc53c52fce43e5c24168e4f19a80db9",
-      "name": "claude-code-2.1.150",
+      "locked_url": "https://github.com/flox/floxenvs?rev=281a0e4f3ad5607bf5ff1d5796d72550801165f7",
+      "name": "claude-code-2.1.157",
       "pname": "claude-code",
-      "rev": "309753570cc53c52fce43e5c24168e4f19a80db9",
-      "rev_count": 4044,
-      "rev_date": "2026-05-23T07:24:08Z",
-      "scrape_date": "2026-05-25T02:18:41.569238930Z",
+      "rev": "281a0e4f3ad5607bf5ff1d5796d72550801165f7",
+      "rev_count": 5073,
+      "rev_date": "2026-05-30T01:11:12Z",
+      "scrape_date": "2026-05-30T03:00:10.850307875Z",
       "stabilities": [
         "unstable",
         "staging"
       ],
       "unfree": true,
-      "version": "2.1.150",
+      "version": "2.1.157",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/1zibdimvajsmqcj1zrvsi4hmv6v1gz0n-claude-code-2.1.150"
+        "out": "/nix/store/bjg9xwvw69a4d4fmddjb1by9kicxl3a7-claude-code-2.1.157"
       },
       "system": "x86_64-linux",
       "group": "claude-code",
@@ -131,27 +135,28 @@
     {
       "attr_path": "codex",
       "broken": false,
-      "derivation": "/nix/store/lvn64dv30p6fc7ffgwh1qwmhzg4h4kif-codex-0.132.0.drv",
+      "derivation": "/nix/store/smjhq9rkhcaq9ilpq5yai2dmqfzrm03w-codex-0.135.0.drv",
       "description": "OpenAI Codex CLI - a coding agent that runs locally",
       "install_id": "codex",
       "license": "Apache-2.0",
-      "locked_url": "https://github.com/flox/floxenvs?rev=19c87d16bdf4ae8432cda0b7e5f42ab2704d323f",
-      "name": "codex-0.132.0",
+      "locked_url": "https://github.com/flox/floxenvs?rev=fdc9e180d4a4cffdedb0d817c895861bb51db882",
+      "name": "codex-0.135.0",
       "pname": "codex",
-      "rev": "19c87d16bdf4ae8432cda0b7e5f42ab2704d323f",
-      "rev_count": 3536,
-      "rev_date": "2026-05-20T10:17:17Z",
-      "scrape_date": "2026-05-25T02:19:37.690518927Z",
+      "rev": "fdc9e180d4a4cffdedb0d817c895861bb51db882",
+      "rev_count": 4751,
+      "rev_date": "2026-05-28T20:24:55Z",
+      "scrape_date": "2026-05-30T03:00:10.850335143Z",
       "stabilities": [
-        "unstable"
+        "unstable",
+        "staging"
       ],
       "unfree": false,
-      "version": "0.132.0",
+      "version": "0.135.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/n1yvaq58dhg3gxan11cac2mfi4riqghj-codex-0.132.0"
+        "out": "/nix/store/k6wj2yqsqhpa7r9rsdp9w62dn4zs0709-codex-0.135.0"
       },
       "system": "aarch64-darwin",
       "group": "codex",
@@ -160,27 +165,28 @@
     {
       "attr_path": "codex",
       "broken": false,
-      "derivation": "/nix/store/hvl2f72ijifq6v6amd4jwqvr10xf8r51-codex-0.132.0.drv",
+      "derivation": "/nix/store/88kbml8b7ddc38znc1mh60p62vcl80s8-codex-0.135.0.drv",
       "description": "OpenAI Codex CLI - a coding agent that runs locally",
       "install_id": "codex",
       "license": "Apache-2.0",
-      "locked_url": "https://github.com/flox/floxenvs?rev=19c87d16bdf4ae8432cda0b7e5f42ab2704d323f",
-      "name": "codex-0.132.0",
+      "locked_url": "https://github.com/flox/floxenvs?rev=fdc9e180d4a4cffdedb0d817c895861bb51db882",
+      "name": "codex-0.135.0",
       "pname": "codex",
-      "rev": "19c87d16bdf4ae8432cda0b7e5f42ab2704d323f",
-      "rev_count": 3536,
-      "rev_date": "2026-05-20T10:17:17Z",
-      "scrape_date": "2026-05-25T02:19:37.690531145Z",
+      "rev": "fdc9e180d4a4cffdedb0d817c895861bb51db882",
+      "rev_count": 4751,
+      "rev_date": "2026-05-28T20:24:55Z",
+      "scrape_date": "2026-05-30T03:00:10.850339233Z",
       "stabilities": [
-        "unstable"
+        "unstable",
+        "staging"
       ],
       "unfree": false,
-      "version": "0.132.0",
+      "version": "0.135.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/1kpycgwp6qrf2r3lwb1kzrpl35qmlm90-codex-0.132.0"
+        "out": "/nix/store/fh06c7ydf7718fr833ys4xgzqhbjsfvl-codex-0.135.0"
       },
       "system": "aarch64-linux",
       "group": "codex",
@@ -189,27 +195,28 @@
     {
       "attr_path": "codex",
       "broken": false,
-      "derivation": "/nix/store/ryw0ll24gcxn2pgjma4g7sc6z3gx4adf-codex-0.132.0.drv",
+      "derivation": "/nix/store/v149y7k8wxh19nckzhcmsi0hwmf6h3bl-codex-0.135.0.drv",
       "description": "OpenAI Codex CLI - a coding agent that runs locally",
       "install_id": "codex",
       "license": "Apache-2.0",
-      "locked_url": "https://github.com/flox/floxenvs?rev=19c87d16bdf4ae8432cda0b7e5f42ab2704d323f",
-      "name": "codex-0.132.0",
+      "locked_url": "https://github.com/flox/floxenvs?rev=fdc9e180d4a4cffdedb0d817c895861bb51db882",
+      "name": "codex-0.135.0",
       "pname": "codex",
-      "rev": "19c87d16bdf4ae8432cda0b7e5f42ab2704d323f",
-      "rev_count": 3536,
-      "rev_date": "2026-05-20T10:17:17Z",
-      "scrape_date": "2026-05-25T02:19:37.690536267Z",
+      "rev": "fdc9e180d4a4cffdedb0d817c895861bb51db882",
+      "rev_count": 4751,
+      "rev_date": "2026-05-28T20:24:55Z",
+      "scrape_date": "2026-05-30T03:00:10.850350775Z",
       "stabilities": [
-        "unstable"
+        "unstable",
+        "staging"
       ],
       "unfree": false,
-      "version": "0.132.0",
+      "version": "0.135.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/yjsp9mch6il7rhcpgny7c2w8izxwf22v-codex-0.132.0"
+        "out": "/nix/store/mc08bgrbh55s4ziiikn2dvkxm7qcyw4m-codex-0.135.0"
       },
       "system": "x86_64-linux",
       "group": "codex",
@@ -228,7 +235,7 @@
       "rev": "e7d9eb11648f4a9a8aa4a5270776538cda9098ea",
       "rev_count": 3849,
       "rev_date": "2026-05-22T07:36:53Z",
-      "scrape_date": "2026-05-25T02:21:13.213433197Z",
+      "scrape_date": "2026-05-30T03:00:10.850379205Z",
       "stabilities": [
         "unstable",
         "staging"
@@ -258,7 +265,7 @@
       "rev": "e7d9eb11648f4a9a8aa4a5270776538cda9098ea",
       "rev_count": 3849,
       "rev_date": "2026-05-22T07:36:53Z",
-      "scrape_date": "2026-05-25T02:21:13.213449534Z",
+      "scrape_date": "2026-05-30T03:00:10.850383465Z",
       "stabilities": [
         "unstable",
         "staging"
@@ -288,7 +295,7 @@
       "rev": "e7d9eb11648f4a9a8aa4a5270776538cda9098ea",
       "rev_count": 3849,
       "rev_date": "2026-05-22T07:36:53Z",
-      "scrape_date": "2026-05-25T02:21:13.213459703Z",
+      "scrape_date": "2026-05-30T03:00:10.850388948Z",
       "stabilities": [
         "unstable",
         "staging"
@@ -308,28 +315,28 @@
     {
       "attr_path": "goose-cli",
       "broken": false,
-      "derivation": "/nix/store/mp5b4gkxib5a8hdygdrld1057in67cya-goose-cli-1.35.0.drv",
+      "derivation": "/nix/store/ml8hibpmh1ymh9zw8x6lr8lx9hxpx7vz-goose-cli-1.36.0.drv",
       "description": "Block's local, extensible, open source AI engineering agent",
       "install_id": "goose-cli",
       "license": "Apache-2.0",
-      "locked_url": "https://github.com/flox/floxenvs?rev=4cef758e774ff809d2a41e5036b2fcd9bf8e8163",
-      "name": "goose-cli-1.35.0",
+      "locked_url": "https://github.com/flox/floxenvs?rev=3e25327e0de1c73831f0b2d889770d1caae141be",
+      "name": "goose-cli-1.36.0",
       "pname": "goose-cli",
-      "rev": "4cef758e774ff809d2a41e5036b2fcd9bf8e8163",
-      "rev_count": 3853,
-      "rev_date": "2026-05-22T08:14:04Z",
-      "scrape_date": "2026-05-25T00:45:32.903335988Z",
+      "rev": "3e25327e0de1c73831f0b2d889770d1caae141be",
+      "rev_count": 4589,
+      "rev_date": "2026-05-28T02:10:17Z",
+      "scrape_date": "2026-05-30T03:00:10.850425041Z",
       "stabilities": [
         "unstable",
         "staging"
       ],
       "unfree": false,
-      "version": "1.35.0",
+      "version": "1.36.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/55wlrdhdmiic2prp50lcfa0b4nvgjnya-goose-cli-1.35.0"
+        "out": "/nix/store/1g53pfdfi0vn4j96712x3ww9w406ljl0-goose-cli-1.36.0"
       },
       "system": "aarch64-darwin",
       "group": "goose-cli",
@@ -338,28 +345,28 @@
     {
       "attr_path": "goose-cli",
       "broken": false,
-      "derivation": "/nix/store/7cw7wf14vdar554gz9s2vfhiqww97a52-goose-cli-1.35.0.drv",
+      "derivation": "/nix/store/3k8ha9izqr070ikvv8d9rlqqdw2rzk4s-goose-cli-1.36.0.drv",
       "description": "Block's local, extensible, open source AI engineering agent",
       "install_id": "goose-cli",
       "license": "Apache-2.0",
-      "locked_url": "https://github.com/flox/floxenvs?rev=4cef758e774ff809d2a41e5036b2fcd9bf8e8163",
-      "name": "goose-cli-1.35.0",
+      "locked_url": "https://github.com/flox/floxenvs?rev=3e25327e0de1c73831f0b2d889770d1caae141be",
+      "name": "goose-cli-1.36.0",
       "pname": "goose-cli",
-      "rev": "4cef758e774ff809d2a41e5036b2fcd9bf8e8163",
-      "rev_count": 3853,
-      "rev_date": "2026-05-22T08:14:04Z",
-      "scrape_date": "2026-05-25T00:45:32.903350657Z",
+      "rev": "3e25327e0de1c73831f0b2d889770d1caae141be",
+      "rev_count": 4589,
+      "rev_date": "2026-05-28T02:10:17Z",
+      "scrape_date": "2026-05-30T03:00:10.850428885Z",
       "stabilities": [
         "unstable",
         "staging"
       ],
       "unfree": false,
-      "version": "1.35.0",
+      "version": "1.36.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/h29v1b08cx06w4c0yz3wgwhlkfpmlwna-goose-cli-1.35.0"
+        "out": "/nix/store/1rsb8i7la45xd6dp8j2kf2ss8d1iafha-goose-cli-1.36.0"
       },
       "system": "aarch64-linux",
       "group": "goose-cli",
@@ -368,118 +375,31 @@
     {
       "attr_path": "goose-cli",
       "broken": false,
-      "derivation": "/nix/store/fisjcxf5xl3p99b9qxj5dmw1gziq2chz-goose-cli-1.35.0.drv",
+      "derivation": "/nix/store/b2plrxh0r8xaiv7s51h2ccympqm8dplb-goose-cli-1.36.0.drv",
       "description": "Block's local, extensible, open source AI engineering agent",
       "install_id": "goose-cli",
       "license": "Apache-2.0",
-      "locked_url": "https://github.com/flox/floxenvs?rev=4cef758e774ff809d2a41e5036b2fcd9bf8e8163",
-      "name": "goose-cli-1.35.0",
+      "locked_url": "https://github.com/flox/floxenvs?rev=3e25327e0de1c73831f0b2d889770d1caae141be",
+      "name": "goose-cli-1.36.0",
       "pname": "goose-cli",
-      "rev": "4cef758e774ff809d2a41e5036b2fcd9bf8e8163",
-      "rev_count": 3853,
-      "rev_date": "2026-05-22T08:14:04Z",
-      "scrape_date": "2026-05-25T00:45:32.903359101Z",
+      "rev": "3e25327e0de1c73831f0b2d889770d1caae141be",
+      "rev_count": 4589,
+      "rev_date": "2026-05-28T02:10:17Z",
+      "scrape_date": "2026-05-30T03:00:10.850432238Z",
       "stabilities": [
         "unstable",
         "staging"
       ],
       "unfree": false,
-      "version": "1.35.0",
+      "version": "1.36.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/7ni41m6yi9kgbfd7f8n12mmx0zgaznd1-goose-cli-1.35.0"
+        "out": "/nix/store/2h4l2cz80siv0v9xdl4a84fxgdssm11y-goose-cli-1.36.0"
       },
       "system": "x86_64-linux",
       "group": "goose-cli",
-      "priority": 5
-    },
-    {
-      "attr_path": "cursor-cli",
-      "broken": false,
-      "derivation": "/nix/store/02ijxglz6yf3kmlknr0c57nnm2gm2mnn-cursor-cli-0-unstable-2026-05-16.drv",
-      "description": "Cursor CLI",
-      "install_id": "cursor-cli",
-      "license": "Unfree",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=29916453413845e54a65b8a1cf996842300cd299",
-      "name": "cursor-cli-0-unstable-2026-05-16",
-      "pname": "cursor-cli",
-      "rev": "29916453413845e54a65b8a1cf996842300cd299",
-      "rev_count": 1003640,
-      "rev_date": "2026-05-23T03:54:30Z",
-      "scrape_date": "2026-05-24T07:05:50.873762Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": true,
-      "version": "2026-05-16",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/jlbw7q8caxh3yqnbvc8cj13wg998gcfk-cursor-cli-0-unstable-2026-05-16"
-      },
-      "system": "aarch64-darwin",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "cursor-cli",
-      "broken": false,
-      "derivation": "/nix/store/aycfk6950lyf9kqq2qg6q728607r75hq-cursor-cli-0-unstable-2026-05-16.drv",
-      "description": "Cursor CLI",
-      "install_id": "cursor-cli",
-      "license": "Unfree",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=29916453413845e54a65b8a1cf996842300cd299",
-      "name": "cursor-cli-0-unstable-2026-05-16",
-      "pname": "cursor-cli",
-      "rev": "29916453413845e54a65b8a1cf996842300cd299",
-      "rev_count": 1003640,
-      "rev_date": "2026-05-23T03:54:30Z",
-      "scrape_date": "2026-05-24T07:34:04.744571Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": true,
-      "version": "2026-05-16",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/wy8bmb89rdailj3r54rw9hxn8df6hbia-cursor-cli-0-unstable-2026-05-16"
-      },
-      "system": "aarch64-linux",
-      "group": "toplevel",
-      "priority": 5
-    },
-    {
-      "attr_path": "cursor-cli",
-      "broken": false,
-      "derivation": "/nix/store/kbj7ihxr49apsfla235q580phla5hqr9-cursor-cli-0-unstable-2026-05-16.drv",
-      "description": "Cursor CLI",
-      "install_id": "cursor-cli",
-      "license": "Unfree",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=29916453413845e54a65b8a1cf996842300cd299",
-      "name": "cursor-cli-0-unstable-2026-05-16",
-      "pname": "cursor-cli",
-      "rev": "29916453413845e54a65b8a1cf996842300cd299",
-      "rev_count": 1003640,
-      "rev_date": "2026-05-23T03:54:30Z",
-      "scrape_date": "2026-05-24T08:31:56.004450Z",
-      "stabilities": [
-        "unstable"
-      ],
-      "unfree": true,
-      "version": "2026-05-16",
-      "outputs_to_install": [
-        "out"
-      ],
-      "outputs": {
-        "out": "/nix/store/nlw0c19ybf0cvgm6w5dd7003v7mr7drn-cursor-cli-0-unstable-2026-05-16"
-      },
-      "system": "x86_64-linux",
-      "group": "toplevel",
       "priority": 5
     },
     {
@@ -495,7 +415,7 @@
       "rev": "4305bb29005f77a384e1ebe22ec59789ed2bbb02",
       "rev_count": 1,
       "rev_date": "2026-04-23T06:07:42Z",
-      "scrape_date": "2026-05-25T02:39:53.870941875Z",
+      "scrape_date": "2026-05-30T03:00:10.850459631Z",
       "stabilities": [
         "unstable",
         "staging",
@@ -526,7 +446,7 @@
       "rev": "4305bb29005f77a384e1ebe22ec59789ed2bbb02",
       "rev_count": 1,
       "rev_date": "2026-04-23T06:07:42Z",
-      "scrape_date": "2026-05-25T02:39:53.870956980Z",
+      "scrape_date": "2026-05-30T03:00:10.850462182Z",
       "stabilities": [
         "unstable",
         "staging",
@@ -557,7 +477,7 @@
       "rev": "4305bb29005f77a384e1ebe22ec59789ed2bbb02",
       "rev_count": 1,
       "rev_date": "2026-04-23T06:07:42Z",
-      "scrape_date": "2026-05-25T02:39:53.870961139Z",
+      "scrape_date": "2026-05-30T03:00:10.850464217Z",
       "stabilities": [
         "unstable",
         "staging",
@@ -573,6 +493,183 @@
       },
       "system": "x86_64-linux",
       "group": "kilocode-cli",
+      "priority": 5
+    },
+    {
+      "attr_path": "pi",
+      "broken": false,
+      "derivation": "/nix/store/2i7byarq9gm6lrb66ha34ldg9nh2mm98-pi-0.73.1.drv",
+      "description": "Terminal-based coding agent with multi-model support",
+      "install_id": "pi",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/floxenvs?rev=ec0dd4c37eabe9042c0d7dccbe550d407b51a28b",
+      "name": "pi-0.73.1",
+      "pname": "pi",
+      "rev": "ec0dd4c37eabe9042c0d7dccbe550d407b51a28b",
+      "rev_count": 3677,
+      "rev_date": "2026-05-20T12:30:23Z",
+      "scrape_date": "2026-05-30T03:00:10.850486343Z",
+      "stabilities": [
+        "unstable",
+        "staging"
+      ],
+      "unfree": false,
+      "version": "0.73.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/1jminqyr5lrm3414c7r2mh4zncl1r85z-pi-0.73.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "pi",
+      "priority": 5
+    },
+    {
+      "attr_path": "pi",
+      "broken": false,
+      "derivation": "/nix/store/f8hnbg0dzimffw4rfadf2sjipm0bzm90-pi-0.73.1.drv",
+      "description": "Terminal-based coding agent with multi-model support",
+      "install_id": "pi",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/floxenvs?rev=ec0dd4c37eabe9042c0d7dccbe550d407b51a28b",
+      "name": "pi-0.73.1",
+      "pname": "pi",
+      "rev": "ec0dd4c37eabe9042c0d7dccbe550d407b51a28b",
+      "rev_count": 3677,
+      "rev_date": "2026-05-20T12:30:23Z",
+      "scrape_date": "2026-05-30T03:00:10.850488718Z",
+      "stabilities": [
+        "unstable",
+        "staging"
+      ],
+      "unfree": false,
+      "version": "0.73.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/n510ngrb9lm8jsk9cm0n8ybgnals9j91-pi-0.73.1"
+      },
+      "system": "aarch64-linux",
+      "group": "pi",
+      "priority": 5
+    },
+    {
+      "attr_path": "pi",
+      "broken": false,
+      "derivation": "/nix/store/v0fh71n76bbyx4avqp7li4yppg1arkbn-pi-0.73.1.drv",
+      "description": "Terminal-based coding agent with multi-model support",
+      "install_id": "pi",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/floxenvs?rev=ec0dd4c37eabe9042c0d7dccbe550d407b51a28b",
+      "name": "pi-0.73.1",
+      "pname": "pi",
+      "rev": "ec0dd4c37eabe9042c0d7dccbe550d407b51a28b",
+      "rev_count": 3677,
+      "rev_date": "2026-05-20T12:30:23Z",
+      "scrape_date": "2026-05-30T03:00:10.850491625Z",
+      "stabilities": [
+        "unstable",
+        "staging"
+      ],
+      "unfree": false,
+      "version": "0.73.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/8aash68clxdkc6gn9gly9s6cfqi8kc1x-pi-0.73.1"
+      },
+      "system": "x86_64-linux",
+      "group": "pi",
+      "priority": 5
+    },
+    {
+      "attr_path": "cursor-cli",
+      "broken": false,
+      "derivation": "/nix/store/02ijxglz6yf3kmlknr0c57nnm2gm2mnn-cursor-cli-0-unstable-2026-05-16.drv",
+      "description": "Cursor CLI",
+      "install_id": "cursor-cli",
+      "license": "Unfree",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "name": "cursor-cli-0-unstable-2026-05-16",
+      "pname": "cursor-cli",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T07:06:03.096599Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": true,
+      "version": "2026-05-16",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/jlbw7q8caxh3yqnbvc8cj13wg998gcfk-cursor-cli-0-unstable-2026-05-16"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "cursor-cli",
+      "broken": false,
+      "derivation": "/nix/store/aycfk6950lyf9kqq2qg6q728607r75hq-cursor-cli-0-unstable-2026-05-16.drv",
+      "description": "Cursor CLI",
+      "install_id": "cursor-cli",
+      "license": "Unfree",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "name": "cursor-cli-0-unstable-2026-05-16",
+      "pname": "cursor-cli",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T07:34:26.461829Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": true,
+      "version": "2026-05-16",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/wy8bmb89rdailj3r54rw9hxn8df6hbia-cursor-cli-0-unstable-2026-05-16"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "cursor-cli",
+      "broken": false,
+      "derivation": "/nix/store/kbj7ihxr49apsfla235q580phla5hqr9-cursor-cli-0-unstable-2026-05-16.drv",
+      "description": "Cursor CLI",
+      "install_id": "cursor-cli",
+      "license": "Unfree",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "name": "cursor-cli-0-unstable-2026-05-16",
+      "pname": "cursor-cli",
+      "rev": "64c08a7ca051951c8eae34e3e3cb1e202fe36786",
+      "rev_count": 1004030,
+      "rev_date": "2026-05-23T18:24:25Z",
+      "scrape_date": "2026-05-26T08:32:51.578156Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": true,
+      "version": "2026-05-16",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/nlw0c19ybf0cvgm6w5dd7003v7mr7drn-cursor-cli-0-unstable-2026-05-16"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
       "priority": 5
     }
   ]

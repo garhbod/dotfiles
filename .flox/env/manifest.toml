@@ -18,6 +18,8 @@ gemini-cli.pkg-group = "gemini-cli"
 cursor-cli.pkg-path = "cursor-cli"
 kilocode-cli.pkg-path = "flox/kilocode-cli"
 kilocode-cli.pkg-group = "kilocode-cli"
+pi.pkg-path = "flox/pi"
+pi.pkg-group = "pi"
 # gum.pkg-path = "gum"
 # gum.version = "^0.14.5"
 
